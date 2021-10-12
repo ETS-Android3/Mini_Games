@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HangManGame</string>
+    <string name="Back">Back</string>
+    <string-array name="SpinnerItems">
+        <item> Animals </item>
+        <item> Famous Peopel </item>
+        <item> Books </item>
+        <item> Foods </item>
+        <item> Cities </item>
+        <item> Opposite Words </item>
+        <item> Movies </item>
+    </string-array>
+</resources>
+

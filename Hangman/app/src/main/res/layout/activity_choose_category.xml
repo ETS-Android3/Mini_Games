@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/topbutton"
+    tools:context=".ChooseCategory"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp">
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Choose your Category "
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingBottom="80dp"
+        />
+
+    <Spinner
+        android:id="@+id/Categories"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="30dp"
+        android:textSize="35sp"
+        android:entries="@array/SpinnerItems"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:background="@drawable/topbutton"
+        android:backgroundTint="#ff000000"
+        android:text="Start"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="25dp"
+        android:textSize="36sp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_Back"
+        android:layout_width="183dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="51dp"
+        android:background="@drawable/topbutton"
+        android:backgroundTint="#ff000000"
+        android:text="@string/Back"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+    </LinearLayout>
+
+</LinearLayout>
